@@ -1,0 +1,303 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		B13CA0F522AF6084000ABD1F /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = B13CA0F422AF6084000ABD1F /* main.cpp */; };
+		B13CA10022AF6192000ABD1F /* GameMenu.cpp in Sources */ = {isa = PBXBuildFile; fileRef = B13CA0FE22AF6192000ABD1F /* GameMenu.cpp */; };
+		B198238922B0721600D9E951 /* TetrisPiece.cpp in Sources */ = {isa = PBXBuildFile; fileRef = B198238322B0721500D9E951 /* TetrisPiece.cpp */; };
+		B198238A22B0721600D9E951 /* TetrisGame.cpp in Sources */ = {isa = PBXBuildFile; fileRef = B198238522B0721600D9E951 /* TetrisGame.cpp */; };
+		B198238B22B0721600D9E951 /* SnakeGame.cpp in Sources */ = {isa = PBXBuildFile; fileRef = B198238622B0721600D9E951 /* SnakeGame.cpp */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		B13CA0EF22AF6084000ABD1F /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		B13CA0F122AF6084000ABD1F /* TheClone-Arcade */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "TheClone-Arcade"; sourceTree = BUILT_PRODUCTS_DIR; };
+		B13CA0F422AF6084000ABD1F /* main.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		B13CA0FE22AF6192000ABD1F /* GameMenu.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = GameMenu.cpp; sourceTree = "<group>"; };
+		B13CA0FF22AF6192000ABD1F /* GameMenu.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = GameMenu.hpp; sourceTree = "<group>"; };
+		B198238322B0721500D9E951 /* TetrisPiece.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = TetrisPiece.cpp; sourceTree = "<group>"; };
+		B198238422B0721600D9E951 /* TetrisPiece.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = TetrisPiece.hpp; sourceTree = "<group>"; };
+		B198238522B0721600D9E951 /* TetrisGame.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = TetrisGame.cpp; sourceTree = "<group>"; };
+		B198238622B0721600D9E951 /* SnakeGame.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = SnakeGame.cpp; sourceTree = "<group>"; };
+		B198238722B0721600D9E951 /* SnakeGame.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = SnakeGame.hpp; sourceTree = "<group>"; };
+		B198238822B0721600D9E951 /* TetrisGame.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = TetrisGame.hpp; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B13CA0EE22AF6084000ABD1F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		B13CA0E822AF6084000ABD1F = {
+			isa = PBXGroup;
+			children = (
+				B13CA0F322AF6084000ABD1F /* TheClone-Arcade */,
+				B13CA0F222AF6084000ABD1F /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		B13CA0F222AF6084000ABD1F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B13CA0F122AF6084000ABD1F /* TheClone-Arcade */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B13CA0F322AF6084000ABD1F /* TheClone-Arcade */ = {
+			isa = PBXGroup;
+			children = (
+				B13CA0F422AF6084000ABD1F /* main.cpp */,
+				B13CA0FE22AF6192000ABD1F /* GameMenu.cpp */,
+				B13CA0FF22AF6192000ABD1F /* GameMenu.hpp */,
+				B198238622B0721600D9E951 /* SnakeGame.cpp */,
+				B198238722B0721600D9E951 /* SnakeGame.hpp */,
+				B198238522B0721600D9E951 /* TetrisGame.cpp */,
+				B198238822B0721600D9E951 /* TetrisGame.hpp */,
+				B198238322B0721500D9E951 /* TetrisPiece.cpp */,
+				B198238422B0721600D9E951 /* TetrisPiece.hpp */,
+			);
+			path = "TheClone-Arcade";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		B13CA0F022AF6084000ABD1F /* TheClone-Arcade */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B13CA0F822AF6084000ABD1F /* Build configuration list for PBXNativeTarget "TheClone-Arcade" */;
+			buildPhases = (
+				B13CA0ED22AF6084000ABD1F /* Sources */,
+				B13CA0EE22AF6084000ABD1F /* Frameworks */,
+				B13CA0EF22AF6084000ABD1F /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "TheClone-Arcade";
+			productName = "TheClone-Arcade";
+			productReference = B13CA0F122AF6084000ABD1F /* TheClone-Arcade */;
+			productType = "com.apple.product-type.tool";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		B13CA0E922AF6084000ABD1F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1010;
+				ORGANIZATIONNAME = "Dezel Davis";
+				TargetAttributes = {
+					B13CA0F022AF6084000ABD1F = {
+						CreatedOnToolsVersion = 10.1;
+					};
+				};
+			};
+			buildConfigurationList = B13CA0EC22AF6084000ABD1F /* Build configuration list for PBXProject "TheClone-Arcade" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = B13CA0E822AF6084000ABD1F;
+			productRefGroup = B13CA0F222AF6084000ABD1F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B13CA0F022AF6084000ABD1F /* TheClone-Arcade */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B13CA0ED22AF6084000ABD1F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B198238A22B0721600D9E951 /* TetrisGame.cpp in Sources */,
+				B198238B22B0721600D9E951 /* SnakeGame.cpp in Sources */,
+				B13CA0F522AF6084000ABD1F /* main.cpp in Sources */,
+				B198238922B0721600D9E951 /* TetrisPiece.cpp in Sources */,
+				B13CA10022AF6192000ABD1F /* GameMenu.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		B13CA0F622AF6084000ABD1F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		B13CA0F722AF6084000ABD1F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		B13CA0F922AF6084000ABD1F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		B13CA0FA22AF6084000ABD1F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		B13CA0EC22AF6084000ABD1F /* Build configuration list for PBXProject "TheClone-Arcade" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B13CA0F622AF6084000ABD1F /* Debug */,
+				B13CA0F722AF6084000ABD1F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B13CA0F822AF6084000ABD1F /* Build configuration list for PBXNativeTarget "TheClone-Arcade" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B13CA0F922AF6084000ABD1F /* Debug */,
+				B13CA0FA22AF6084000ABD1F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = B13CA0E922AF6084000ABD1F /* Project object */;
+}

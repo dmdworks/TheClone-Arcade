@@ -1,0 +1,9 @@
+.DS_Store
+xcuserdata/
+GameMenu.o
+main.o
+SnakeGame.o
+TetrisGame.o
+TetrisPiece.o
+TheClone-Arcade
+
